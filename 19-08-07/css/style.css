@@ -1,0 +1,81 @@
+.wrapper{
+    margin: 0 auto;
+}
+body{
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fyesofcorsa.com%2Fwp-content%2Fuploads%2F2015%2F10%2F2421_desert.jpg&f=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+
+}
+/* navigation */
+header{
+    background-color: #A0A5A8;
+}
+
+header .wrapper div img{
+    width: 100px;
+}
+
+nav{
+    display: inline;
+}
+
+header .wrapper div{
+    display: inline;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+a{
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* section */
+section{
+    color: bisque;
+}
+
+section .wrapper{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 100%;
+    background: none;
+    border: none;
+    opacity: 0.7;
+    border-bottom: 2px solid white;
+}
+
+input:last-child{
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+
+.output{
+    width: 40%;
+    margin: 5px;
+}
+
+.register{
+    width: 60%;
+    margin: 5px;
+}

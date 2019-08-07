@@ -3,12 +3,41 @@
 <head>
     <meta carset="UTF-8">
     <meta name="viewport">
-    <title></title>
+    <title>IBM</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
+    <header>
+        <div class="wrapper">
+            <div>
+                <img src="https://duckduckgo.com/i/f6542513.png" alt="IBM">
+            </div>
+            <nav>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contacts</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="wrapper">
+            <div class="register">
+                <h2>Register</h2>
+                <p>Full name:</p>
+                <input type="text" name="text" placeholder="Petras Slekys" id="name">
+                <p>Email:</p>
+                <input type="email" name="email" placeholder="Petras@mozila.lt">
+                <p>Password:</p>
+                <input type="password" name="password">
+                <input type="submit" value="Register" id='submit'>
+            </div>
+            <div class="output">
+                <h3>This name of last person registered: <label id="last_person"></label></h3>
+                <h3>The number of people registered: <label id="number_registered"></label></h3>
+            </div>
+        </div>
+    </section>
     <script src="css/script.js"></script>
 </body>
 </html>
