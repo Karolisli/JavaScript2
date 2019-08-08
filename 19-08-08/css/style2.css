@@ -1,0 +1,44 @@
+body{
+    background-image: url(../image/building.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+header .wrapper div img{
+    width: 100px;
+}
+
+header .wrapper .logo{
+    text-align: center;
+}
+
+header .wrapper{
+    width: 500px;
+    margin-top: 50px;
+}
+
+.login_form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.copyright{
+    text-align: center;
+    opacity: 0.5;
+}
+
+.login_form input[type = submit]{
+    background-color: red;
+    border: red;
+}
+
+.login_form input[type = submit]:hover{
+    background-color: gray;
+}
